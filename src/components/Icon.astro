@@ -1,0 +1,31 @@
+---
+import githubReference from '../assets/github.svg'
+import linkedinReference from '../assets/linkedin.svg';
+
+interface Props {
+  label: string;
+  icon: 'github' | 'linkedin';
+  linkTo: string;
+}
+
+const { icon, linkTo, label } = Astro.props;
+
+const ariaLabel = `Link to {label}`;
+const iconSVG = initSVG();
+
+function initSVG () {
+  switch (icon) {
+    case 'github': 
+      return githubReference.src;
+    case 'linkedin': 
+      return linkedinReference.src;
+    default:
+      return undefined;
+  }
+}
+
+---
+
+<a href={linkTo} aria-label={ariaLabel} class="cursor-pointer">
+  <img src={iconSVG} alt={label} />
+</a>

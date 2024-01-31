@@ -1,0 +1,19 @@
+---
+import Nav from './Nav.astro';
+
+interface Icon {
+  label: string;
+  icon: 'github' | 'linkedin';
+  linkTo: string;
+}
+
+interface Props {
+  icons: Array<Icon>;
+}
+
+const { icons } = Astro.props;
+---
+
+<header class="py-8">
+  <Nav icons={icons}/>
+</header>

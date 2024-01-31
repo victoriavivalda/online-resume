@@ -1,0 +1,15 @@
+---
+interface Props {
+  descBegin: string;
+  descEnphasis: string;
+  descEnd: string;
+}
+
+const { descBegin, descEnphasis, descEnd } = Astro.props;
+---
+
+<p class="mt-6 text-center text-lg leading-6 text-slate-600">
+  {descBegin}
+  <span class="text-slate-400 hover:text-sky-500">{descEnphasis}</span>
+  {descEnd}
+</p>

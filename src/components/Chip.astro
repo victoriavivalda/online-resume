@@ -1,0 +1,25 @@
+---
+
+interface Props {
+  descLabel: string;
+  actionLabel: string;
+  actionInfo: string;
+}
+
+const { descLabel, actionLabel, actionInfo } = Astro.props;
+
+---
+<div id="actionChip" class="flex justify-center mb-8 py-8">
+<span class="animate-pulse ring-slate-950 w-fit rounded-full px-3 py-2 cursor-pointer text-xs text-center text-slate-950 font-semibold ring-1">
+  <span>{descLabel}</span>
+  <span class="px-2">•</span>
+  <span class="font-bold">{actionLabel}</span>  
+  <span class="pl-px-4">></span>
+</span>
+</div>
+
+<script define:vars={{ actionInfo }}>
+  const actionElem = document.getElementById('actionChip');
+  actionElem?.addEventListener('click', () => console.log('WOW It works! ' + actionInfo));
+</script>
+  

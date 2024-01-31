@@ -1,0 +1,34 @@
+{
+  "icons": [
+    {
+      "icon": "linkedin",
+      "label": "Linkedin",
+      "linkTo": "https://linkedin.com/in/victoriavivalda"
+    },
+    {
+      "icon": "github",
+      "label": "Github",
+      "linkTo": "https://github.com/vickui"
+    }
+  ],
+  "text": {
+    "en": {
+      "chip": {
+        "descLabel": "Available To Work",
+        "actionLabel": "Connect with Me",
+        "actionInfo": "victoriavivalda@gmail.com"
+      },
+      "presentation": {
+        "description": "Creative Programmer",
+        "descriptionEnphasis": "frontend enthusiastic"
+      },
+      "details": {
+        "descBegin": "A team player, detail-oriented, self-driven, adept in web development with more than ",
+        "descEnphasis": "five years of industry experience. ",
+        "descEnd": "Confident working in dynamic and agile environments with a learner mindset."
+      }
+    }
+  },
+  "linkedin": "https://linkedin.com/in/victoriavivalda",
+  "resumeFile": "https://mockurl/pdf"
+}

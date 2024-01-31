@@ -1,0 +1,21 @@
+---
+import Icon from './Icon.astro';
+
+interface Icon {
+  label: string;
+  icon: 'github' | 'linkedin';
+  linkTo: string;
+}
+
+interface Props {
+  icons: Array<Icon>;
+}
+
+const { icons } = Astro.props;
+---
+
+<nav>
+  <ul class="flex flex-row justify-end items-center space-x-7">
+    {icons.map((icon) => <li class="w-6 h-6"><Icon icon={icon.icon} label={icon.label} linkTo={icon.linkTo}/></li>)}
+  </ul>
+</nav>
