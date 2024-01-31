@@ -13,8 +13,10 @@ const { linkedin, resumeFile } = Astro.props;
       Go to Linkedin <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="pl-0.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
     </button> 
   </a>
-    
-  <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors bg-slate-200 text-slate-900 h-10 px-4 py-2">
-    Download resume
-  </button>
+
+  <a href={resumeFile} target="_blank" title="Download Resume" download="Frontend_Victoria-Vivalda_2024.pdf" rel="noopener noreferrer" class="inline-flex items-center">
+    <button class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors bg-gray-100 text-slate-900 h-10 px-4 py-2">
+      Download resume
+    </button>
+  </a>
 </div>

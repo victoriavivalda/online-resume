@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Chip from '../components/Chip.astro';
 
-import json from '../content.json'
+import json from '../../content.json'
 import Presentation from '../components/Presentation.astro';
 import Details from '../components/Details.astro';
 import Buttons from '../components/Buttons.astro';
@@ -13,8 +13,8 @@ const resumeText = resumeContext.text["en"];
 
 ---
 
-<Layout title="Resume">
-	<main class="px-40">
+<Layout title="Online Resume">
+	<main class="relative mx-auto h-screen w-full max-w-7xl px-6 md:px-8 lg:px-12">
 		<Header icons={resumeContext.icons}/>
 		<section class="relative mx-auto flex max-w-2xl flex-col items-center">
 		<Chip {...resumeText.chip} />

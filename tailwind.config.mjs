@@ -7,11 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: [
-          'QuicksandVariable',
-          'quicksand',
-          ...defaultTheme.fontFamily.sans,
-        ],
+        sans: ['InterVariable', 'inter', ...defaultTheme.fontFamily.sans],
       },
     },
   },
