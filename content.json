@@ -3,12 +3,12 @@
     {
       "icon": "linkedin",
       "label": "Linkedin",
-      "linkTo": "https://linkedin.com/in/victoriavivalda"
+      "linkTo": "https://linkedin.com/in/yourname"
     },
     {
       "icon": "github",
       "label": "Github",
-      "linkTo": "https://github.com/vickui"
+      "linkTo": "https://github.com/yourname"
     }
   ],
   "text": {
@@ -16,7 +16,7 @@
       "chip": {
         "descLabel": "Available To Work",
         "actionLabel": "Connect with Me",
-        "actionInfo": "victoriavivalda@gmail.com"
+        "actionInfo": "youremail"
       },
       "presentation": {
         "description": "Creative Programmer",
@@ -29,6 +29,6 @@
       }
     }
   },
-  "linkedin": "https://linkedin.com/in/victoriavivalda",
-  "resumeFile": "./Frontend_Victoria-Vivalda_2024.pdf"
+  "linkedin": "https://linkedin.com/in/yourname",
+  "resumeFile": "./resumename.pdf"
 }
