@@ -8,8 +8,8 @@ interface Props {
 const { descBegin, descEnphasis, descEnd } = Astro.props;
 ---
 
-<p class="mt-6 text-center text-lg leading-6 text-gray-600 dark:text-gray-200">
+<p class="mt-6 text-center text-lg leading-6 text-slate-500">
   {descBegin}
-  <span class="opacity-70 hover:text-gray-950">{descEnphasis}</span>
+  <span class="opacity-70 text-neutral-950">{descEnphasis}</span>
   {descEnd}
 </p>
