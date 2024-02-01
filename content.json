@@ -1,11 +1,6 @@
 {
   "icons": [
     {
-      "icon": "linkedin",
-      "label": "Linkedin",
-      "linkTo": "https://linkedin.com/in/victoriavivalda"
-    },
-    {
       "icon": "github",
       "label": "Github",
       "linkTo": "https://github.com/victoriavivalda"
@@ -30,5 +25,6 @@
     }
   },
   "linkedin": "https://linkedin.com/in/victoriavivalda",
-  "resumeFile": "./Frontend_Victoria-Vivalda_2024.pdf"
+  "resumeFile": "./Frontend_Victoria-Vivalda_2024.pdf",
+  "fileName": "Frontend_Victoria-Vivalda_2024.pdf"
 }
