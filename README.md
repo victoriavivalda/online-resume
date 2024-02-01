@@ -1,4 +1,4 @@
-[Online Resume](https://legendary-online-resume.netlify.app/)
+[Online Resume](https://vickyvivalda.com/)
 
 Clone the repository<br>
 Add your resume.pdf file in the public directory<br>
