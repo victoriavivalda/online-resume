@@ -1,4 +1,4 @@
-[Online Resume](https://prod.d42ut3x74mscb.amplifyapp.com)
+[Online Resume](https://legendary-online-resume.netlify.app/)
 
 Clone the repository<br>
 Add your resume.pdf file in the public directory<br>
