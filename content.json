@@ -1,30 +1,30 @@
 {
-  "icons": [
-    {
-      "icon": "github",
-      "label": "Github",
-      "linkTo": "https://github.com/victoriavivalda"
-    }
-  ],
-  "text": {
-    "en": {
-      "chip": {
-        "descLabel": "Available To Work",
-        "actionLabel": "Connect with Me",
-        "actionInfo": "victoriavivalda@gmail.com"
-      },
-      "presentation": {
-        "description": "Creative Programmer",
-        "descriptionEnphasis": "frontend enthusiastic"
-      },
-      "details": {
-        "descBegin": "A team player, detail-oriented, self-driven, adept in web development with more than ",
-        "descEnphasis": "five years of industry experience. ",
-        "descEnd": "Confident working in dynamic and agile environments with a learner mindset."
-      }
-    }
-  },
-  "linkedin": "https://linkedin.com/in/victoriavivalda",
-  "resumeFile": "./Frontend_Victoria-Vivalda_2024.pdf",
-  "fileName": "Frontend_Victoria-Vivalda_2024.pdf"
+	"icons": [
+		{
+			"icon": "github",
+			"label": "Github",
+			"linkTo": "https://github.com/youruser"
+		}
+	],
+	"text": {
+		"en": {
+			"chip": {
+				"descLabel": "Available To Work",
+				"actionLabel": "Connect with Me",
+				"actionInfo": "youruser@emaildomain.com"
+			},
+			"presentation": {
+				"description": "Creative Programmer",
+				"descriptionEnphasis": "frontend enthusiastic"
+			},
+			"details": {
+				"descBegin": "A team player, detail-oriented, self-driven, adept in web development with more than ",
+				"descEnphasis": "five years of industry experience. ",
+				"descEnd": "Confident working in dynamic and agile environments with a learner mindset."
+			}
+		}
+	},
+	"linkedin": "https://linkedin.com/in/youruser",
+	"resumeFile": "./Resume.pdf",
+	"fileName": "Resume.pdf"
 }
