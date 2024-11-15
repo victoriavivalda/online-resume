@@ -3,7 +3,7 @@
 		{
 			"icon": "github",
 			"label": "Github",
-			"linkTo": "https://github.com/victoriavivalda"
+			"linkTo": "https://github.com/youruser"
 		}
 	],
 	"text": {
@@ -11,7 +11,7 @@
 			"chip": {
 				"descLabel": "Available To Work",
 				"actionLabel": "Connect with Me",
-				"actionInfo": "victoriavivalda@gmail.com"
+				"actionInfo": "youruser@emaildomain.com"
 			},
 			"presentation": {
 				"description": "Creative Programmer",
@@ -19,12 +19,12 @@
 			},
 			"details": {
 				"descBegin": "A team player, detail-oriented, self-driven, adept in web development with more than ",
-				"descEnphasis": "seven years of industry experience. ",
+				"descEnphasis": "five years of industry experience. ",
 				"descEnd": "Confident working in dynamic and agile environments with a learner mindset."
 			}
 		}
 	},
-	"linkedin": "https://linkedin.com/in/victoriavivalda",
-	"resumeFile": "./Frontend_Victoria-Vivalda_2024.pdf",
-	"fileName": "Frontend_Victoria-Vivalda_2024.pdf"
+	"linkedin": "https://linkedin.com/in/youruser",
+	"resumeFile": "./Resume.pdf",
+	"fileName": "Resume.pdf"
 }
